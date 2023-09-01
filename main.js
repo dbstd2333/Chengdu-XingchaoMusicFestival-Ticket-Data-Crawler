@@ -20,7 +20,7 @@ function weidian() {
     },
     headers: {
       Cookie:
-        "__spider__visitorid=c27d5f47705e4e04; visitor_id=13e2763a-516a-47a7-becb-49a73595277b; login_token=_EwWqqVIQC8ak3BlmQZmQoAKXwwcIzgyJn4dW1OAKWrrzbshtDE4TjwRj3BUITfRnxiJTwISRvtjP-Wke9gPIH2B3lcX4PCODJTruat65C_OwYXjoKy8GfHtAZTseg87I4sGKPchF3sw0q1PEBGQQ06Ccb6-0q6FzfaOGBZ4KisuAYE485HE-gWlpz-KAcgeMfOBXSM1BLya9RYiDsdVxClOx0JLa-Uw7NdAX2jqd1VYOXs3s7ZzF02dp4FymJodBGLTI7iSM; is_login=true; login_type=LOGIN_USER_TYPE_MASTER; login_source=LOGIN_USER_SOURCE_MASTER; uid=1780057383; duid=1780057383; sid=1710706657; wdtoken=817ed4f1; v-components/tencent-live-plugin@wfr=c_wxh5; __spider__sessionid=f84899b6d6a03998; v-components/clean-up-advert@private_domain=967587296; v-components/clean-up-advert@wx_app=967587296",
+        "你的token",
       "Content-Type": "application/json, */*",
       "User-Agent":
         "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/116.0.0.0",
@@ -64,7 +64,7 @@ function pushmsg() {
   }
   lastsum = sum;
   axios
-    .post("https://www.pushplus.plus/send/23c40cae871449a99d57a356efa57afc", {
+    .post("https://www.pushplus.plus/send/你的token", {
       title: "余票提醒",
       content:
         pretext +
@@ -89,7 +89,7 @@ function pushmsg() {
 
 function pushERRmsg(res) {
   axios
-    .post("https://www.pushplus.plus/send/23c40cae871449a99d57a356efa57afc", {
+    .post("https://www.pushplus.plus/send/你的token", {
       title: "出现错误",
       content: res,
     })

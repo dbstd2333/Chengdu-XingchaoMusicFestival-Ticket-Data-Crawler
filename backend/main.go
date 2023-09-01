@@ -42,7 +42,7 @@ type resp struct {
 
 func main() {
 	app := fiber.New()
-	Mysql, err := gorm.Open(mysql.Open("yupiao:6hHBdDiXNaWWfW7b@tcp(119.23.69.180:3306)/yupiao?charset=utf8mb4&parseTime=True&loc=Local"), &gorm.Config{
+	Mysql, err := gorm.Open(mysql.Open("你的mysql"), &gorm.Config{
 		PrepareStmt:            true,
 		SkipDefaultTransaction: true,
 		Logger:                 logger.Default.LogMode(logger.Info),
