@@ -1,0 +1,265 @@
+{
+	"status": {
+		"code": 0,
+		"message": "OK",
+		"description": ""
+	},
+	"result": {
+		"access_time": 1690170870532,
+		"agreement_info_list": [
+			{
+				"agreement_name": "《微店未成年人下单提醒声明》（未满十八岁的用户需要由监护人代理）",
+				"agreement_tips": "提交订单前请先阅读并同意",
+				"agreement_type": 3,
+				"agreement_url": "https://vmspub.weidian.com/gaia/54378/11fea933.html"
+			}
+		],
+		"agreement_tips": "提交订单前请先阅读并同意",
+		"biz_type": 1,
+		"bottom_support_text": "-由微店提供技术支持，苏宁银行提供支付服务-",
+		"buyer": {
+			"buyer_id": "1780057383",
+			"country_code": "86",
+			"register_phone": "17380112696"
+		},
+		"buyer_address": {
+			"phone": "17380112696"
+		},
+		"can_self_delivery": 0,
+		"cannot_submit": 0,
+		"custom_info": [
+			{
+				"def_value": "请填写身份证号",
+				"format": "idcard",
+				"name": "身份证号",
+				"required": 1
+			},
+			{
+				"def_value": "请填写姓名",
+				"format": "text",
+				"name": "姓名",
+				"required": 1
+			},
+			{
+				"def_value": "请填写来自哪个省/城市",
+				"format": "text",
+				"name": "来自哪个省/城市",
+				"required": 1
+			},
+			{
+				"def_value": "请填写已知晓不退换（填1）",
+				"format": "text",
+				"name": "已知晓不退换（填1）",
+				"required": 1
+			},
+			{
+				"def_value": "请填写两人请填写同行人姓名",
+				"format": "text",
+				"name": "两人请填写同行人姓名",
+				"required": 0
+			},
+			{
+				"def_value": "请填写请填写同行人身份证",
+				"format": "idcard",
+				"name": "请填写同行人身份证",
+				"required": 0
+			}
+		],
+		"custom_info_num": 1,
+		"custom_info_position": 1,
+		"eCode_info": {
+			"eCode_flag": 1
+		},
+		"express_types": {
+			"type_list": [
+				{
+					"can_select": 1,
+					"desc": "快递",
+					"mode": 1,
+					"selected": 1,
+					"support": 1,
+					"type": 4
+				}
+			]
+		},
+		"flag_info": {
+			"cross_border": 0,
+			"need_add_address": 0
+		},
+		"icon_list": [],
+		"id_card_flag": 0,
+		"installment_info": {
+			"can_open": 1,
+			"coupon_id": "ee27c16901707126137383",
+			"icon_list": [
+				{
+					"text": "【夏日福利】本单立减10元"
+				}
+			],
+			"installment_desc": "",
+			"installment_tips": "【夏日福利】本单立减10元",
+			"interaction_type": 0,
+			"is_open": 1,
+			"item_list": [
+				{
+					"installment_list": [],
+					"item_id": "6470112319",
+					"item_sku_id": "105580365970"
+				}
+			],
+			"must_choose": 0,
+			"promotion_amt": 788
+		},
+		"invalid_item_list": [],
+		"invalid_shop_list": [],
+		"is_no_ship_addr": 1,
+		"only_self_delivery": 0,
+		"pay_options": [
+			{
+				"available": true,
+				"buttons": [
+					{
+						"name": "提交订单",
+						"type": 0
+					}
+				],
+				"logo": "https://si.geilicdn.com/img-772900000175d4ce5ba20a2064e0-unadjust_80_80.png",
+				"name": "普通支付",
+				"pay_type": 0,
+				"priority": 2,
+				"selected": 1
+			},
+			{
+				"available": true,
+				"buttons": [
+					{
+						"name": "放心花信用付",
+						"type": 2
+					}
+				],
+				"extend": {
+					"coupon_id": "ee27c16901707126137383",
+					"promotion_amt": 788
+				},
+				"installments": [],
+				"logo": "https://si.geilicdn.com/img-435800000175d4d9c5d00a211587-unadjust_80_80.png",
+				"name": "放心花信用付",
+				"pay_type": 2,
+				"priority": 4,
+				"promotion_amount": "788.00",
+				"resource_tips": "【夏日福利】本单立减10元"
+			},
+			{
+				"available": true,
+				"buttons": [
+					{
+						"name": "找人代付",
+						"type": 3
+					}
+				],
+				"logo": "https://si.geilicdn.com/img-3cfa00000175d4d913b80a21924a-unadjust_80_82.png",
+				"name": "找人代付",
+				"pay_type": 3,
+				"priority": 3
+			}
+		],
+		"pvid": "1242000001898608ca3b0a8fa4e83efe",
+		"quick_pay": {
+			"is_open": 0,
+			"is_show": 0,
+			"mall_switch": 0
+		},
+		"re_confirm_type": 1,
+		"red_packet_rule_tips": "https://vmspub.weidian.com/gaia/32893/a98a80df.html",
+		"shop_list": [
+			{
+				"chosen_discount": 0,
+				"discount_fee": 0,
+				"discount_list": [],
+				"display_fetch_coupon": 0,
+				"express_list": [
+					{
+						"express_fee": "0.00",
+						"express_name": "0.00",
+						"express_type": 1,
+						"is_default": 1,
+						"use_weight_template": 0
+					}
+				],
+				"express_types": {
+					"type_list": [
+						{
+							"can_select": 1,
+							"desc": "快递",
+							"mode": 1,
+							"selected": 1,
+							"support": 1,
+							"type": 4
+						}
+					]
+				},
+				"invalid_item_list": [],
+				"item_list": [
+					{
+						"ahead_icon_list": [],
+						"available_date": "使用时间：2023-10-02 — 2023-10-03",
+						"can_edit_count": 0,
+						"discount_list": [],
+						"discount_tips": "每单限购2件",
+						"hide_stock": 0,
+						"icon_list": [],
+						"item_convey_info": {
+							"valid_date_info": {
+								"validEndDate": "2023-10-03",
+								"validStartDate": "2023-10-02",
+								"validType": 4
+							}
+						},
+						"item_discount_fee": 0,
+						"item_head_img": "https://si.geilicdn.com/pcitem967587296-0799000001894908141f0a20e2c5-unadjust_801_801.png",
+						"item_id": "6470112319",
+						"item_name": "2023成都·星巢秘境音乐节(10.2/10.3) 「点击爱心❤️收藏，开票提醒」",
+						"item_pay_price": 798,
+						"item_sku_id": "105580365970",
+						"item_sku_title": "双日通票 下午13:00开演;预售票",
+						"limit_num": 2,
+						"ori_pay_price": 798,
+						"ori_price": "798.00",
+						"price": "798.00",
+						"promise_list": [],
+						"quantity": 1,
+						"stock": 1838,
+						"tips": "此商品不支持退款"
+					}
+				],
+				"need_id_card": 0,
+				"ori_total_price": "798.00",
+				"outer_discount_list": [],
+				"shop": {
+					"can_switch_pay": 1,
+					"cur_shop_id": "967587296",
+					"need_warrant_tips": 0,
+					"order_types": [
+						{
+							"is_default": 1,
+							"order_type": 2,
+							"pay_name": "直接到帐"
+						}
+					],
+					"shop_id": "967587296",
+					"shop_name": "晓峰音乐公社",
+					"shop_url": "http://weidian.com/s/967587296"
+				},
+				"total_pay_price": "798.00",
+				"total_price": "798.00"
+			}
+		],
+		"shop_promotion_fee": "0.00",
+		"source_id": "33287e7b22a49a1012f04cfcc658bd41",
+		"tech_Sup_tips_type": 0,
+		"template_name": "信息",
+		"total_pay_price": "798.00",
+		"total_price_no_item_pro": "798.00",
+		"total_save_price": "0.00"
+	}
+}
